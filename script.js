@@ -3,5 +3,5 @@ window.addEventListener('DOMContentLoaded', () => {
 
   setTimeout(() => {
     message.classList.add('visible');
-  }, 500); // 0.5 секунды
+  }, 5000); // 5 секунд
 });
