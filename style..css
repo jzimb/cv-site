@@ -64,3 +64,18 @@ button:hover {
 .hidden {
   display: none;
 }
+.hidden {
+  opacity: 0;
+  transition: opacity 1.5s ease;
+  height: 0;
+  overflow: hidden;
+  margin-top: 0;
+}
+
+#message {
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+  opacity: 1;
+  height: auto;
+}
