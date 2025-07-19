@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
-  const messageEl = document.getElementById('message');
+  const message = document.getElementById('message');
 
   setTimeout(() => {
-    messageEl.classList.remove('hidden');
-  }, 2000);
+    message.classList.add('visible');
+  }, 500); // 0.5 секунды
 });
