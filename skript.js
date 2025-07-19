@@ -1,4 +1,7 @@
-function showMessage() {
+window.addEventListener('DOMContentLoaded', () => {
   const messageEl = document.getElementById('message');
-  messageEl.classList.remove('hidden');
-}
+
+  setTimeout(() => {
+    messageEl.classList.remove('hidden');
+  }, 2000);
+});
